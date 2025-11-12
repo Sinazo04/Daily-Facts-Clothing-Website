@@ -1,0 +1,51 @@
+# 404:DAILY FACTS Clothing Store
+
+This is a modern, single-page e-commerce website for the 404:DAILY FACTS streetwear brand. The site is built using only HTML, CSS (Tailwind CSS), and JavaScript, and runs entirely in the browser with no backend required.
+
+## Features
+
+- Responsive, mobile-friendly design
+- Product catalog with real clothing images and prices
+- Add to cart, view cart, and checkout functionality
+- User authentication (login/register) before purchase
+- Multi-step checkout: delivery details and payment details
+- All data stored in browser (localStorage)
+- Brand identity and quotes featured throughout
+
+## How to Run
+
+1. Download or clone this repository.
+2. Place all image files (product photos and logo) in the same folder as `index.html`.
+3. Open `index.html` in your web browser (double-click or right-click > Open with... > your browser).
+
+## Technologies Used
+
+- **HTML**: Page structure
+- **Tailwind CSS**: Styling and layout (via CDN)
+- **JavaScript**: Product logic, cart, authentication, and checkout
+
+## Folder Structure
+
+```
+/ (project root)
+	|-- index.html
+	|-- README
+	|-- Daily Facts Logo.jpg
+	|-- [other product images].jpg
+```
+
+## Usage
+
+- Browse products and add items to your cart.
+- Click the cart icon to view your cart and proceed to checkout.
+- You must log in or register before purchasing.
+- Enter delivery and payment details to complete your order.
+
+## Customization
+
+- To add or change products, edit the `products` array in `index.html`.
+- To update branding or quotes, edit the hero and about sections in `index.html`.
+
+## Disclaimer
+
+This is a demo project for showcasing a clothing brand. No real payments are processed and all data is stored locally in your browser.
